@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Abel;
+    src: url('../fontes/Abel/Abel-Regular.ttf');
+}
+
+@font-face {
+    font-family: Libre-Franklin;
+    src: url('../fontes/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Libre-Frankin-Italic;
+    src: url('../fontes/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Prompt;
+    src: url('../fontes/Prompt/Prompt-Black.ttf');
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fontes/Cormorant/Cormorant-Regular.ttf);
+}
+
+.fonte-abel{
+    font-family: Abel;
+}
+
+.fonte-libre {
+  font-family: Libre-Franklin;
+}
+
+.foto-capa{
+   object-fit: cover;
+   height: 100vh;
+   filter: brightness(70%);
+}
+
+.line-1{
+    position: relative;
+    top: 100%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 270%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(500%);  
+    color: rgba(255,255,255,0.90);
+    font-family: Cormorant;
+
+}
+
+.sombra {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.sombra-cartao {
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0.05);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 13em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* @media only screen and (max-width: 540px) {
+    html {
+      font-size: 1.2rem;
+    }
+
+    .line-1{
+        font-size: 100%;
+        transform: translateY(85%);
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
+
+.curriculo {
+    height: 100vh;
+    width: 100vw;
+    top: 100%;
+    background-color: #f5f5f5;
+}
+
+.descricao {
+    height: 100%;
+    width: 100%;
+    top: 200%;
+    background-color: black;
+}
+
+.cartao {
+  margin-top: 1vh;
+}
+
+.paragrafo-cartao {
+  width: 50px;
+}
+
+#foto-curriculo {
+  width: 100%;
+}
+
+#descricao-foto {
+  font-size: 20px;
+}
+
+.descricao-curriculo {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: auto;
+}
+
+.subdescricoes-curriculo {
+  
+}
